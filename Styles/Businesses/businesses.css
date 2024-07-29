@@ -1,0 +1,334 @@
+.business_box>a{display:block;text-decoration:none;}
+.business_box .business_text{background-color:#fff;padding:55px;}
+.business_box .business_text h2{margin:0px;color:#2B2523;font-size:24px;line-height:38px;font-family:Avenir-Heavy;}
+.business_box .business_text .business_text_para{min-height:60px;display:table;width:100%;position:relative;margin-top:15px;}
+.business_box .business_text .business_text_para p{display:table-cell;margin-bottom:0px;vertical-align:middle;color:#2B2523;line-height:30px;font-size:20px;font-family:Avenir-Light;}
+.business_box .business_text .business_text_para span.custom_arrow{height:48px;width:48px;display:inline-block;background-color:#F5F4F2;border-radius:50%;text-align:center;line-height:48px;position:absolute;right:0px;top:6px;}
+.business_box{margin-bottom:30px;}
+.business_box.mb0{margin-bottom:0px;}
+.business_text p{margin-bottom:0px;}
+.business_verticle_wraper .business_verticle{position:relative;padding-bottom:75px;margin-bottom:75px;border-bottom:1px solid rgba(183, 183, 183, 0.35);}
+.business_verticle_wraper .business_verticle:last-child{margin-bottom:0px;}
+.business_verticle_wraper .business_verticle a{text-decoration:none;display:block;}
+.business_verticle_wraper .business_verticle h2{margin:0px;padding-left:95px;color:#2B2523;font-family:Avenir-Heavy;font-size:24px;line-height:30px;display:inline-block;}
+.business_verticle_wraper .business_verticle p{margin:0px;padding-left:95px;color:#2B2523;font-size:20px;line-height:32px;font-family:Avenir-Light;display:inline-block;margin-top:15px;}
+.business_verticle_wraper .business_verticle span{position:absolute;left:0px;top:0px;line-height:36px;font-size:36px;color:#F15922;font-family:Avenir-Black;}
+.business_achive{padding-bottom:90px;}
+.business_contact_section{height:122px;width:370px;float:left;background-color:#F5F4F2;padding-left:60px;display:table;margin-right:30px;}
+.business_contact_section:first-child{background-color:transparent;padding-left:0px;}
+.business_contact_section:last-child{margin-right:0px;}
+.business_contact_section .business_contact_table{display:table-cell;vertical-align:top;}
+.business_contact_section h2{font-size:30px;font-family:Avenir-Light;line-height:45px;margin:0px;color:#2B2523; padding-top: 25px;}
+.business_contact_section p{color:#2B2523;font-family:Avenir-Heavy;font-size:16px;line-height:24px;margin:0px 0px 8px;}
+.business_contact_section a{color:#F15922;font-size:16px;line-height:24px;font-family:Avenir-Heavy;text-decoration:none;}
+.business_verticle_wraper{padding:44px 0px 120px 0;}
+.business_verticle_wraper.pl90{padding-left:90px;}
+.business_verticle_wraper h1, .business_verticle_wraper h2, .business_verticle_wraper h3.custom_text{margin:0px 0px 30px;color:#2B2523;font-size:30px;line-height:41px;font-family:Avenir-Heavy;}
+.business_verticle_wraper .about_text p{margin-bottom:75px; max-width: 780px;}
+.business_verticle_wraper .about_text p+p {margin-top: -45px;}
+.business_verticle_our_offer h2, .business_verticle_our_offer h3.custom_text{margin-top: 0px; color:#F15922;font-size:24px;line-height:30px;font-family:Avenir-Heavy;margin-bottom:50px;}
+.business_verticle_our_offer h2.mb-0{margin-bottom: 0px;}
+.business_verticle_our_offer ul{padding:0px;margin:0px;}
+.business_verticle_our_offer ul li{display:block;border-top:1px solid rgba(183, 183, 183, 0.35);padding:30px 0px 60px;width:calc(50% - 57px);float:left;color:#2B2523;font-size:24px;line-height:38px;font-family:Avenir-Medium;}
+.business_verticle_our_offer ul li.bdr-top-none{border-top: none;}
+.business_verticle_our_offer ul li.w-100{width: 100%;}
+.business_verticle_our_offer ul li.verticle_single_list{color: #2B2523; font-family: Avenir-Roman; font-size: 18px; line-height: 30px; padding-top: 0px; border-top: none;}
+.business_verticle_our_offer ul li:nth-child(even){margin-left:114px;}
+.business_verticle_our_offer ul li:nth-last-child(2), .business_verticle_our_offer ul li:last-child{padding-bottom:0px;}
+.business_verticle_our_offer ul li a{text-decoration: none; color: #2B2523; display: block; padding-right: 70px; position: relative;}
+.business_verticle_our_offer ul li a span.custom_arrow{height: 48px; width: 48px; display: inline-block; background-color: #F5F4F2; border-radius: 50%; text-align: center; line-height: 46px; position: absolute; right: 0px; top: 50%; transform: translateY(-50%);}
+.business_verticle_bottom{padding:100px 0px 74px;}
+.business_next_project_left{width:469px;float:left;display:table-cell;}
+.business_next_project_left img{width:100%;max-width:100%;}
+.business_next_project_right{background-color:#fff;width:calc(100% - 469px);display:table;height:280px;}
+.business_next_project_right .table_middle{padding-left:60px;}
+.business_next_project_right .arrow_right{right:75px;position:absolute;top:13px;height:48px;width:48px;background-color:#F5F4F2;border-radius:50%;text-align:center;line-height:48px;}
+.business_next_project_right h2{font-size:24px;color:#2B2523;font-family:Avenir-Heavy;line-height:30px;margin:0px 0px 15px;}
+.business_next_project_right p{color:#2B2523;font-size:20px;font-family:Avenir-Light;line-height:27px;margin:0px;}
+.business_project>a{text-decoration: none;}
+.business_project>a>div>img{max-width: 370px; max-height: 306px;}
+ul.inner_breadcrumb.multi_bread li img{position: relative; top: 2px;}
+.business_text p+p{margin-top: 30px;}
+.business_verticle_our_offer+.business_verticle_our_offer{padding-top: 100px;}
+.business_verticle_wraper.custom_bdr{margin-bottom: 120px; border-bottom:1px solid rgba(183, 183, 183, 0.35);}
+h3.custom_business_alt_head{color: #2B2523; font-size: 30px; line-height: 47px; font-family:Avenir-Heavy; margin: 0px;}
+.project_slider ul{padding-left: 30px; margin: 10px 0px 0px;}
+.project_slider ul li{font-size: 15px; padding: 0px 0px; color: #2B2B33; display: block; position: relative;}
+.project_slider ul li:before{content: ""; left: -30px; top: 10px; height: 1px; width: 20px; background-color: #f15922; position: absolute;}
+.inner_botom_right_image a{text-decoration: none;}
+.inner_page_section.top_border{border-top: 1px solid rgba(183, 183, 183, 0.35);} 
+.business_verticle_our_offer_paragraph{color: #2B2523; font-size: 18px;line-height: 30px; padding-top: 75px; margin-bottom: 0px; font-family: Avenir-Roman;}
+.business_verticle_our_offer_subText{padding-top: 30px; color: #2B2523; font-size: 18px;line-height: 30px; margin-bottom: 0px; font-family: Avenir-Roman; margin-bottom: 50px;}
+
+.business_contact_section_r{
+  float: right;
+}
+
+
+.business_contact_section_r ul{
+  width: 570px;
+  background-color: #F5F4F2;
+  margin-bottom: 0px;
+  padding-left: 55px;
+  padding: 15px 55px;
+}
+
+.business_contact_section_r ul.business_sites{
+  margin-bottom: 30px;
+}
+
+.business_contact_section_r ul>li{
+  display: block;
+  padding: 25px 0px;
+  border-bottom: 1px solid rgba(103, 104, 102, 0.35);
+}
+
+.business_contact_section_r ul>li:last-child{
+  border-bottom: none;
+}
+
+.business_contact_section_r ul>li>span{
+  font-family: Avenir-Medium;
+  font-size: 16px;
+  display: block;
+  color: #676866;
+  line-height: 24px;
+  padding-bottom: 8px;
+}
+
+.business_contact_section_r ul>li>a{
+  color: #2B2523;
+  font-family:Avenir-Heavy;
+  font-size: 16px;
+  line-height: 24px;
+  display: block;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.business_contact_section_r ul.business_sites>li>a{
+  background-image: url(../../images/svg/external_link.svg);
+}
+.business_contact_section_r ul.business_mails>li>a{
+  background-image: url(../../images/svg/external_mail.svg);
+}
+
+.business_contact_section_r ul>li>a:hover,
+.business_contact_section_r ul>li>a:focus{
+  text-decoration: none;
+}
+
+.inner_page_section.custom_new_border_top{border-top: 1px solid rgba(183, 183, 183, 0.35);}
+
+.readMoreSection, .readMoreSection1{
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.8s;
+}
+
+.readMoreCta, .readMoreCta1{
+  cursor: pointer;
+  color: #f15921 !important;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 16px !important;
+  font-family: Avenir-Heavy !important;
+}
+
+.custom_landmark_hybrid img{
+  max-width: 100%!important;
+  max-height: 100%!important;
+}
+.text-333333{
+  color: #333333!important;
+} 
+.text-676866{
+  color: #676866!important;
+}
+.inner_content_wraper.custom_text_height{
+  margin-top: 26px;
+}
+
+.inner_content_wraper .top-heading{
+    display: block;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-family: Avenir-Light;
+}
+
+.business_bold_head{font-size: 24px; padding-bottom: 15px; display: block; font-family: Avenir-Heavy;}
+
+.business_verticle_our_offer h2.verticle_head_new{
+  color: #2B2523;
+  font-size: 30px;
+  line-height: 45px;
+  font-family: Avenir-Light;
+  margin: 0px 0px 30px;
+}
+
+
+/*Responsive*/
+@media(max-width: 1024px) {
+  .business_contact_section{margin-right:30px;width:calc(33.33% - 20px);}
+  .business_box .business_text{padding: 45px;}
+  .business_contact_section{ padding-left: 25px;}
+  .business_verticle_wraper .business_verticle{padding-bottom: 60px; margin-bottom: 60px;}
+  .business_verticle_our_offer ul li{font-size: 22px; line-height: 36px;}
+}
+@media(max-width: 991px) {
+	.business_contact_section{padding-left:10px;padding-right:10px;margin-right:20px;}
+	.business_contact_section h2{font-size:22px;line-height:30px;}
+}
+
+/*Custom Tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .business_next_project_left{width: 40%;}
+  .business_next_project_right{width: 60%; height: 224px;}
+  .business_next_project_right .table_middle{padding-left: 45px; padding-right: 110px;}
+  .business_next_project_right .arrow_right{right: 0px; top: 50%; transform: translateY(-50%);}
+  .project_slider_wraper{padding-top: 0px;}
+  .business_contact_section_r ul{width: 450px;}
+}
+@media (min-width: 767px){
+  .mb-50{
+  margin-bottom: 50px!important;
+  }
+  .mb-20{
+  margin-bottom: 20px!important;
+  }
+  .mb-0{
+    margin-bottom: 0px!important;
+  }
+  .pt-0{
+    padding-top: 0px!important;
+  }
+  .w-540{
+    width: 540px!important;
+  }
+}
+@media(max-width: 767px) {
+  .business_box .business_text{background-color:#F5F4F2;padding:25px;}
+  .business_box .business_text h2{font-size:16px;line-height:25px;}
+  .business_box .business_text .business_text_para p{font-size:16px;line-height:24px;}
+  .business_box .business_text .business_text_para{min-height:46px;margin-top:10px;}
+  .business_box .business_text .business_text_para span.custom_arrow{background-color:#fff;height:30px;width:30px;line-height:30px;}
+  .business_verticle_wraper .business_verticle span{display:none;}
+  .business_verticle_wraper .business_verticle h2{padding-left:0px;font-size:16px;line-height:22px;}
+  .business_verticle_wraper .business_verticle.mbl_flex h2{padding-top: 0px;}
+  .business_verticle_wraper .business_verticle p{padding-left:0px;font-size:16px;line-height:24px;margin-top:10px;}
+  .business_verticle_wraper .business_verticle{padding-bottom:50px;margin-bottom:40px;padding-top:10px;}
+  .business_verticle_wraper .business_verticle.mbl_flex{display: flex; justify-content: space-between; align-items: center;}
+  .business_verticle_wraper .business_verticle:last-child{margin-bottom:0px;border-bottom:none;}
+  .business_achive.project_slider_wraper{margin-top:0px;}
+  .business_achive.project_slider_wraper{background-image:url(../../images/mobile/mbl_business_achi.jpg);width:calc(100% + 40px);margin-left:-20px;}
+  .business_achive.project_slider_wraper.cogen{background-image:url(../../images/businesses/cogen/mobile/achiv.jpg);}
+  .business_achive.project_slider_wraper.solar{background-image:url(../../images/businesses/solar/mobile/achiv-m.jpg);}
+  .business_achive.project_slider_wraper.t_d{background-image:url(../../images/businesses/t_d/mobile/achiv.jpg);}
+  .business_achive.project_slider_wraper.turnkey-datacenter{background-image:url(../../images/businesses/turnkey-datacenter/mobile/achiv.jpg);}
+  .business_achive.project_slider_wraper.wind_energy{background-image:url(../../images/businesses/wind_energy/mobile/achiv.jpg);}
+  .business_achive.project_slider_wraper.hybird_energy{background-image:url(../../images/businesses/hybird_energy/mobile/achiv.jpg); margin-bottom: 50px;}
+  .business_achive.project_slider_wraper~.text_name{background-color:transparent;}
+  .landmar_project_slider .measuring_slider{width:auto;}
+  .landmar_project_slider .slide_control{display:none;}
+  .landmar_project_slider .text_name{background-color:transparent;}
+  .landmar_project_slider .timeline_slider:before, .landmar_project_slider .timeline_slider:after{display:none;}
+  .landmar_project_slider .business_project img.custom_mobile{height:200px;}
+  .inner_page_section{padding:40px 0px;}
+  .inner_page_section .landmar_project_slider .heading_section h2{color:#F15922;font-size:12px;font-family:Avenir-Book;line-height:25px;text-transform:uppercase;}
+  .inner_page_section .landmar_project_slider .heading_section{margin-bottom:30px;}
+  .business_next_project_left{width:auto;}
+  .business_verticle_our_offer ul li{width:100%;}
+  .business_verticle_our_offer ul li:nth-child(even){margin-left:0px;}
+  .business_verticle_wraper{padding-left:0px;padding-top:20px;padding:0px;}
+  .business_next_project_right{width:100%;height:auto;}
+  .business_next_project_right .table_middle{padding-left:0px;}
+  .business_next_project_right .arrow_right{right:0px; height: 30px; width: 30px; line-height: 30px; top: 40px;}
+  .business_next_project_right .arrow_right img{height: 10px;}
+  .business_next_project_right h2{font-size:16px;line-height:22px;margin-top:10px;margin-bottom:12px;}
+  .business_next_project_right p{font-size:16px;line-height:24px; padding-right: 100px;}
+  .business_verticle_wraper h1, .business_verticle_wraper h2, .business_verticle_wraper h3.custom_text {padding-top: 20px; font-size:20px;line-height:30px;margin-bottom:20px;}
+  .business_verticle_wraper .about_text p:last-child{margin-bottom:50px;}
+  .business_verticle_our_offer ul li:first-child{padding-top:0px;}
+  .business_verticle_our_offer ul li:nth-last-child(2), .business_verticle_our_offer ul li:last-child{padding-bottom:25px;}
+  .business_verticle_our_offer ul li{border-top:none;border-bottom:1px solid rgba(183, 183, 183, 0.35);padding:25px 0px;font-size:15px;line-height:25px;}
+  .business_verticle_our_offer ul li.mbl_bdr_btm_no{border-bottom: none;}
+  .business_verticle_bottom{padding-top: 20px;background-color:transparent;}
+  .business_verticle_bottom p.text_name{background-color:transparent;}
+  .business_box.mb0{margin-bottom:30px;}
+  .mbl_custom_border{margin-bottom: 10px; padding-bottom: 50px; border-bottom:1px solid rgba(183, 183, 183, 0.35);}
+  .business_verticle_our_offer h2,.business_verticle_our_offer h3.custom_text{display: block !important; font-size: 16px; line-height: 22px;}
+  .business_verticle_our_offer+.business_verticle_our_offer{padding-top: 50px;}
+  .business_verticle_our_offer+.business_verticle_our_offer.mbl-pt-0{padding-top: 0px;}
+  .business_verticle_wraper.custom_bdr{border: none; margin-bottom: 60px;}
+  h3.custom_business_alt_head{font-family:Avenir-Light; font-size: 20px; line-height: 30px; margin-bottom: 30px;}
+  .business_verticle_wraper .about_text p{max-width: 80%;}
+  .business_verticle_wraper .about_text.child-w-90p p{max-width: 90%;}
+  .landmar_project_slider .measuring_slider .swiper-slide{width: 90% !important;}
+  .inner_page_section.no_bot_border.mbl_w100 .business_contact_section{width: 100%; padding: 0px 20px;}
+  .inner_page_section.no_bot_border.mbl_w100 .business_contact_section:last-child{margin-top: 20px;}
+  .inner_page_section.no_bot_border.mbl_w100 .business_contact_section:first-child{padding: 0px}
+  .inner_page_section.mbl_pb60{padding-bottom: 60px;}
+  .business_contact_section_r ul{width: 100%; padding: 15px 25px; float: left;}
+  .business_contact_section_r ul>li{padding: 20px 0px;}
+  .business_contact_section_r{float: left; width: 100%;}
+  .business_verticle_our_offer ul li:last-child{border-bottom: none;}
+  .inner_page_section.custom_new_border_top{margin-top: 40px;}
+  .business_contact_section_r ul>li>span{font-size: 14px; line-height: 22px;}
+  .business_contact_section_r ul>li>a{font-size: 14px; line-height: 22px;}
+  .readMoreCta{font-size: 13px !important;}
+  .mbl-mb-0{
+    margin-bottom: 0px!important;
+  }
+  .mbl-br{
+    border-bottom: 1px solid rgba(183, 183, 183, 0.35)!important;
+  }
+  .mbl-pt60{
+    padding-top: 60px!important;
+  }
+  .mbl-mt30{
+    margin-top: 30px!important;
+  }
+  .top-heading{
+    font-size: 14px!important;
+    margin: 0!important;
+  }
+  .mbl-mt15{
+    margin-top: 15px!important;
+  }
+  .business_verticle_our_offer ul li a span.custom_arrow{
+    height: 30px;
+    width: 30px;
+    line-height: 28px;
+  }
+
+  .business_verticle_our_offer ul li a span.custom_arrow img{
+    width: 15px;
+  }
+
+  .business_verticle_our_offer.mb-60{
+    margin-bottom: 60px;
+  }
+  
+  .business_verticle_our_offer ul li.mbl_bor_btm{
+    border-bottom: 1px solid rgba(183, 183, 183, 0.35);
+  }
+
+  .inner_content_wraper.custom_text_height{
+    margin-top: 17px;
+  }
+
+  .business_bold_head{font-size: 18px; padding-bottom: 10px;}
+
+  .business_verticle_our_offer_paragraph{max-width: 80%; font-size: 15px ; line-height: 24px; padding-bottom: 40px; padding-top: 10px;}
+  .business_verticle_our_offer_subText{max-width: 80%; font-size: 15px ; line-height: 24px; margin-bottom: 32px; padding-top: 10px;}
+
+  .business_verticle_our_offer ul li.verticle_single_list{
+    font-size: 15px;
+    line-height: 24px;
+    max-width: 80%;
+  }
+
+  .business_verticle_our_offer h2.verticle_head_new{line-height: 30px; font-size: 22px; margin-bottom: 20px;}
+
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Group_8340" data-name="Group 8340" transform="translate(-293 -315.5)">
+    <g id="Ellipse_599" data-name="Ellipse 599" transform="translate(295 318)" fill="none" stroke="#f15922" stroke-width="1.5">
+      <circle cx="16" cy="16" r="16" stroke="none"/>
+      <circle cx="16" cy="16" r="15.25" fill="none"/>
+    </g>
+    <g id="Ellipse_604" data-name="Ellipse 604" transform="translate(307 329.999)" fill="#676866" stroke="#676866" stroke-width="1.5">
+      <circle cx="4" cy="4" r="4" stroke="none"/>
+      <circle cx="4" cy="4" r="3.25" fill="none"/>
+    </g>
+    <g id="Rectangle_3236" data-name="Rectangle 3236" transform="translate(321 332)" fill="#f5f4f2" stroke="#f15922" stroke-width="1.5">
+      <rect width="8" height="4" rx="2" stroke="none"/>
+      <rect x="0.75" y="0.75" width="6.5" height="2.5" rx="1.25" fill="none"/>
+    </g>
+    <g id="Rectangle_3237" data-name="Rectangle 3237" transform="translate(293 332)" fill="#f5f4f2" stroke="#f15922" stroke-width="1.5">
+      <rect width="8" height="4" rx="2" stroke="none"/>
+      <rect x="0.75" y="0.75" width="6.5" height="2.5" rx="1.25" fill="none"/>
+    </g>
+    <g id="Rectangle_3238" data-name="Rectangle 3238" transform="translate(313 343.5) rotate(90)" fill="#f5f4f2" stroke="#f15922" stroke-width="1.5">
+      <rect width="8" height="4" rx="2" stroke="none"/>
+      <rect x="0.75" y="0.75" width="6.5" height="2.5" rx="1.25" fill="none"/>
+    </g>
+    <g id="Rectangle_3239" data-name="Rectangle 3239" transform="translate(313 315.5) rotate(90)" fill="#f5f4f2" stroke="#f15922" stroke-width="1.5">
+      <rect width="7" height="4" rx="2" stroke="none"/>
+      <rect x="0.75" y="0.75" width="5.5" height="2.5" rx="1.25" fill="none"/>
+    </g>
+  </g>
+</svg>

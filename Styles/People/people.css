@@ -1,0 +1,376 @@
+.people_wraper {
+    padding: 70px 0px 150px;
+    margin-bottom: 0px;
+}
+
+.people_text_section {
+    padding-bottom: 100px
+}
+
+.people_text_section:last-child {
+    padding-bottom: 120px;
+    border-bottom: 1px solid rgba(183, 183, 183, 0.35);
+    margin-bottom: 120px;
+}
+
+.people_text_section.prople_custom_border {
+    padding-bottom: 120px;
+    margin-bottom: 120px;
+    border-bottom: 1px solid rgba(183, 183, 183, 0.35);
+}
+
+.people_text_section h3 {
+    margin: 0px 0px 20px;
+    color: #2B2523;
+    line-height: 30px;
+    font-size: 24px;
+    font-family: Avenir-Heavy;
+}
+
+.people_text_section p {
+    margin: 0px 0px 34px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Avenir-Roman;
+    max-width: 470px;
+}
+
+.people_text_section p:last-child {
+    margin-bottom: 0px;
+}
+
+.people_md_section h2 {
+    margin: 40px 0px 30px;
+    font-size: 24px;
+    line-height: 38px;
+    font-family: Avenir-Heavy;
+    color: #2B2523;
+}
+
+.people_md_section p {
+    margin: 0px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #2B2523;
+    font-family: Avenir-Roman;
+    max-width: 475px;
+}
+
+.people_md_section {
+    padding-bottom: 120px;
+    margin-bottom: 120px;
+    border-bottom: 1px solid rgba(183, 183, 183, 0.35);
+}
+
+.people_testimoniols {
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.people_slider {
+    min-height: 371px;
+}
+
+.people_slider .slide_control {
+    margin-top: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.people_slider .swiper-slide>p {
+    max-width: 485px;
+    font-family: Avenir-Medium;
+    font-size: 22px;
+    line-height: 35px;
+    margin-bottom: 60px;
+}
+
+.people_slider .slide_arrow span {
+    height: 48px;
+    width: 48px;
+    background-color: #F5F4F2;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 50%;
+}
+
+.people_slider .slide_count {
+    display: none;
+}
+
+.people_testi_desk h3 {
+    color: #333333;
+    line-height: 24px;
+    font-size: 18px;
+    font-family: Avenir-Heavy;
+    margin: 0px 0px 5px;
+}
+
+.people_testi_desk p {
+    color: #2B2B33;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Avenir-Light;
+}
+
+@media(max-width: 1024px) {
+    .people_slider {
+        min-height:313px;
+    }
+
+    .people_slider .swiper-slide>p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 35px;
+    }
+}
+
+/*Custom Tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .people_md_section h2 {
+        margin-top: 10px;
+    }
+
+    .people_wraper {
+        padding-bottom: 120px;
+    }
+}
+
+@media(max-width: 767px) {
+    .people_wraper {
+        padding-bottom:50px;
+        margin-bottom: 0px;
+        border-bottom: 1px solid rgba(183, 183, 183, 0.35);
+        padding-top: 40px;
+    }
+
+    .people_testimoniols {
+        background-color: transparent;
+        padding: 0px 10px;
+        margin-bottom: 60px;
+    }
+
+    .people_testimoniols .people_slider h3:before {
+        left: 50%;
+        transform: translateX(-50%);
+        height: 24px;
+        width: 25px;
+        background-image: url(../images/svg/testi.svg);
+    }
+
+    .people_slider {
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 40px;
+    }
+
+    .slide_control .people_slide_right.slide_arrow:before, .slide_control .people_slide_left.slide_arrow:before, .slide_control .people_slide_right.slide_arrow:after, .slide_control .people_slide_left.slide_arrow:after {
+        display: none;
+    }
+
+    .slide_control .people_slide_left.slide_arrow, .slide_control .people_slide_right.slide_arrow {
+        height: auto;
+        width: auto;
+    }
+
+    .people_slider .slide_arrow span {
+        background-color: transparent;
+    }
+
+    .people_slider .slide_arrow+.slide_arrow {
+        margin-left: 120px;
+    }
+
+    .people_slider .slide_control {
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .people_slider .slide_count {
+        position: absolute;
+        bottom: 13px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+    }
+
+    .people_slider .slide_count span.last_number {
+        margin-top: 0px;
+    }
+
+    .mbl_people_md_section {
+        background-color: #F5F4F2;
+        height: 106px;
+        width: calc(100% + 40px);
+        position: relative;
+        left: -20px;
+        padding: 0px 20px;
+        margin-bottom: 60px;
+    }
+
+    .mbl_people_md_section img.mbl_md_image {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .mbl_people_md_section p {
+        padding-left: 58px;
+    }
+
+    .mbl_people_text_section .panel-group {
+        margin-bottom: 0px;
+    }
+
+    .mbl_people_text_section .panel-group:last-child {
+        margin-bottom: 60px;
+    }
+
+    .mbl_people_text_section .panel .panel-body {
+        border-top: none !important;
+    }
+
+    .mbl_people_text_section .panel {
+        border: none;
+        border-bottom: 1px solid rgba(183, 183, 183, 0.35);
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    .mbl_people_text_section .panel+.panel {
+        margin: 0px;
+    }
+
+    .mbl_people_text_section .panel .panel-heading {
+        padding: 0px;
+    }
+
+    .mbl_people_text_section .panel .panel-heading .panel-title a {
+        text-decoration: none;
+        display: block;
+        color: #2B2523;
+        font-size: 16px;
+        line-height: 16px;
+        font-family: Avenir-Heavy;
+        transition: all 0.3s;
+        position: relative;
+        padding: 30px 0px 23px;
+    }
+
+    .mbl_people_text_section .panel .panel-heading .panel-title a.lh-24 {
+        line-height: 24px;
+    }
+
+    .mbl_people_text_section .panel .panel-heading .panel-title a.collapsed {
+        padding-bottom: 30px;
+    }
+
+    .mbl_people_text_section .panel .panel-heading .panel-title a span {
+        position: absolute;
+        right: 0px;
+        top: 22px;
+        height: 30px;
+        width: 30px;
+        background-color: #F5F4F2;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 29px;
+        transform: rotate(-90deg);
+        transition: all 0.3s;
+    }
+
+    .mbl_people_text_section .panel .panel-heading .panel-title a.collapsed span {
+        transform: rotate(90deg);
+    }
+
+    .panel-group .panel .panel-heading .panel-title a span.top_32 {
+        top: 32px;
+    }
+
+    .mbl_people_text_section .panel .panel-heading .panel-title a span img {
+        height: 12px;
+    }
+
+    .mbl_people_text_section .panel .panel-body {
+        padding: 0px 0px 30px;
+    }
+
+    .mbl_people_text_section .panel .panel-body img,.mbl_people_text_section .panel .panel-body .mobile-image {
+        margin-bottom: 25px;
+        margin-top: 20px;
+    }
+
+    .mbl_people_text_section .panel .panel-body p {
+        margin-bottom: 0px;
+        color: #2B2523;
+        font-family: Avenir-Roman;
+        font-size: 15px;
+        line-height: 24px;
+        max-width: 285px;
+    }
+
+    .mbl_people_text_section .panel .panel-body p+p {
+        margin-top: 20px;
+    }
+
+    .people_md_section {
+        padding-bottom: 60px;
+        padding-top: 20px;
+        margin-bottom: 0px;
+        border-bottom: 0px;
+    }
+
+    .people_md_section h2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .people_md_section p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .people_heading h2.mbl_heading {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .heading_section.people_heading {
+        margin-bottom: 30px;
+    }
+
+    .people_slider .swiper-slide>p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+
+    .people_testi_desk h3 {
+        font-size: 14px;
+        line-height: 18px;
+        font-family: Avenir-Medium;
+    }
+
+    .people_testi_desk p {
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 30px;
+    }
+
+    .people_slider {
+        min-height: 1px;
+    }
+
+    .mbl_people_text_section .panel .panel-body a.link_style {
+        display: inline-block;
+        margin-top: 30px;
+        font-size: 12px;
+    }
+}

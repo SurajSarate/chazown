@@ -1,0 +1,99 @@
+.graph-wrapper {
+    width: 616px;
+    height: 439px;
+    position: relative;
+    opacity: 0;
+}
+.graph-wrapper .layer0 {
+    position: absolute;
+    left: -51px;
+    bottom: 47px;
+}
+.graph-wrapper .layer1 {
+    position: absolute;
+    left: -5px;
+    bottom: 47px;
+}
+.graph-wrapper .layer2 {
+    position: absolute;
+    left: -12px;
+    bottom: 0;
+}
+.graph-wrapper .layer3 {
+    position: absolute;
+    right: -7px;
+    bottom: 49px;
+}
+.graph-wrapper .layer4 {
+    position: absolute;
+    left: -32px;
+    bottom: 48px;
+}
+@media only screen and (max-width: 767px) {
+    .graph-wrapper {
+        width: 100%;
+        height: 0;
+        padding-top: calc(43900% / 616);
+        position: relative;
+        opacity: 0;
+    }
+    .graph-wrapper .layer0 {
+        position: absolute;
+        left: 0;
+        bottom: calc(50 * 100% / 505);
+        width: 100%;
+        height: 1px;
+    }
+    .graph-wrapper .layer1 {
+        position: absolute;
+        left: 15px;
+        bottom: calc(50 * 100% / 505);
+        width: 96%;
+        height: auto;
+    }
+    .graph-wrapper .layer2 {
+        position: absolute;
+        left: 10px;
+        bottom: -2px;
+        width: 98%;
+        height: auto;
+    }
+    .graph-wrapper .layer3 {
+        position: absolute;
+        right: -8.5px;
+        bottom: 28px;
+        width: 98.7%;
+        height: auto;
+    }
+    .graph-wrapper .layer4 {
+        position: absolute;
+        left: 0;
+        bottom: 27px;
+        width: 100%;
+        height: auto;
+    }
+    .graph_box {
+        right: 0px;
+    }
+}
+@media only screen and (max-width: 376px) {
+    .graph_box .graph-wrapper .layer4 {
+        bottom: 25px;
+    }
+    .graph_box .graph-wrapper .layer3 {
+        right: -9px;
+        bottom: 27px;
+    }
+}
+@media only screen and (max-width: 321px) {
+    .graph_box .graph-wrapper .layer4 {
+        bottom: 20px !important;
+    }
+    .graph_box .graph-wrapper .layer3 {
+        bottom: 22px;
+        right: -8px;
+    }
+}
+.graph_box_text {
+    opacity: 0;
+}
