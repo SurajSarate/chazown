@@ -231,7 +231,7 @@
   top: 30px;
   height: 36px;
   width: 36px;
-  background-image: url(../../images/svg/panel_close.svg);
+  background-image: url(../../Assets/svg/close.svg);
   z-index: 1;
 }
 
@@ -551,7 +551,7 @@
   }
 
   .project_sidebar .close_btn {
-    background-image: url(../../images/svg/close.svg);
+    background-image: url(../../Assets/svg/close.svg);
     background-repeat: no-repeat;
     background-position: center;
   }
