@@ -74,7 +74,7 @@
 
   // Designation
 
-  var des = [ "Project Director","Project Director","Project Director" ];
+  var des = [ "","","" ];
 
   swiper.on('slideChange', function() {
 
