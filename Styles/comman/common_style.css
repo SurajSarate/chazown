@@ -57,6 +57,7 @@ body .m0{margin:0px;}
 .pe-auto{pointer-events:auto;}
 .bgsz-contain{background-size:contain;}
 .bgsz-cv{background-size:cover;}
+
 .bgp-c{background-position:center;}
 .bg-norepeat{background-repeat:no-repeat;}
 .bgc-gray{background-color:#F5F4F2;}
@@ -73,6 +74,7 @@ body .m0{margin:0px;}
 	.mbl16{font-size:16px;line-height:24px;}
 	.mbltxtc{text-align:center;}
 	.mbl_mb30{margin-bottom:30px;}
+	.mbl_mb50{margin-bottom: 50px !important;}
 	.mbl_font15{font-size:15px;line-height:24px;}
 	.mbl_font14{font-size:14px;line-height:18px;}
 	.mbl_font12{font-size:12px;line-height:15px;}
