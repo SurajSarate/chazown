@@ -1027,3 +1027,27 @@ a.link_style:hover::after,
 .opacity_chnage{
   opacity: 1 !important;
 }
+
+.logo_white {
+  -webkit-filter: grayscale(1) invert(1);
+   filter: grayscale(1) invert(1);
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .custom_navbar{
+      display: flex;
+      flex-flow: row wrap;
+      padding-top: 40px !important  ;
+      align-items: center;
+      justify-content: space-between;
+      align-content: center;
+    }
+  
+    .custom_navbar_foot{
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center
+    }
+  }
