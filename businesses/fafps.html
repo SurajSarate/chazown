@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 
-<html lang="en" class="w-100vw ovx-h">
-
-<head>
+<html lang="en">
+  <head>
     <title>CHAZOWN - An EPC Company</title>
 
     <link rel="canonical" href="about.html" />
@@ -74,17 +73,23 @@
     <meta name="theme-color" content="#ffffff" />
 
     <link rel="stylesheet" href="../Styles/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="../Styles/comman/desktop.css" />
-    <link rel="stylesheet" type="text/css" href="../Styles/swiper.min.css" />
+    <link rel="stylesheet" href="../Styles/swiper.min.css" />
     <link
       rel="stylesheet"
       type="text/css"
-      href="../Styles/comman/responsive.css"
+      href="../Styles/comman/desktop.css"
     />
+
     <link
       rel="stylesheet"
       type="text/css"
       href="../Styles/Businesses/businesses.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../Styles/comman/responsive.css"
     />
     <link
       rel="preload"
@@ -102,7 +107,7 @@
     />
     <link
       rel="preload"
-      href="./Assets/Fonts/5687390/b34d406c-b12e-4b82-892e-1bfab6517cce.woff"
+      href="../Assets/Fonts/5687390/b34d406c-b12e-4b82-892e-1bfab6517cce.woff"
       as="font"
       type="font/woff"
       crossorigin="anonymous"
@@ -121,6 +126,7 @@
       type="font/woff"
       crossorigin="anonymous"
     />
+
     <link
       rel="preload"
       href="../Assets/Fonts/5687178/b8885363-76e9-4313-bd2f-446d01014e36.woff"
@@ -153,7 +159,7 @@
 
         mtTracking.async = "true";
 
-        mtTracking.src = "mtiFontTrackingCode.js";
+        mtTracking.src = "../js/mtiFontTrackingCode.js";
 
         (
           document.getElementsByTagName("head")[0] ||
@@ -161,62 +167,23 @@
         ).appendChild(mtTracking);
       })();
     </script>
-    <style>
-        ul.offer_section li.offer_card {
-          display: flex;
-          gap: 30px;
-          width: 100% !important;
-          margin-left: 0 !important;
-          padding: 50px 0px 60px;
-          align-items: center;
-        }
-    
-        .offer_section li.offer_card:first-child {
-          border-top: none;
-          padding-top: 0px;
-        }
-    
-        .offer_section li.offer_card:last-child {
-          padding-bottom: 0px;
-        }
-    
-        .cardIcon {
-          width: 50px;
-        }
-    
-        @media (max-width: 786px) {
-          .cardIcon {
-            width: 30px;
-          }
-    
-          ul.offer_section li.offer_card {
-            padding: 40px 0 42px 0;
-            gap: 20px;
-          }
-    
-          .offer_section li.offer_card:first-child {
-            padding-top: 20px;
-          }
-    
-          .offer_cardIcon img {
-            width: 30px;
-          }
-    
-          .business_achive.project_slider_wraper.industrial-epc {
-            background-image: url(images/businesses/iepc/mobile/achiv.jpg);
-          }
-        }
-      </style>
-</head>
+  </head>
 
-<body class="w-100vw ovx-h">
+  <body>
     <div class="custom_header inner_header bg_gray">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <nav class="navbar">
               <div class="navbar-header">
-                <button type="button" class="body_toggle navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" onclick="toggleSidebar()">
+                <button
+                  type="button"
+                  class="body_toggle navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false"
+                  onclick="toggleSidebar()"
+                >
                   <span class="icon-bar"></span>
 
                   <span class="icon-bar"></span>
@@ -224,21 +191,48 @@
                   <span class="icon-bar"></span>
                 </button>
 
-                <a class="navbar-brand" href="index.html">
-                  <img width="197" src="../Assets/logo/LOGO_BLACK.png" alt="logo" class="custom_desktop" />
+                <a class="navbar-brand" href="/">
+                  <img
+                    width="197"
+                    src="../Assets/logo/LOGO_BLACK.png"
+                    alt="logo"
+                    class="custom_desktop"
+                  />
 
-                  <img width="157" src="../Assets/logo/LOGO_BLACK.png" alt="logo" class="custom_mobile" />
+                  <img
+                    width="157"
+                    src="../Assets/logo/LOGO_BLACK.png"
+                    alt="logo"
+                    class="custom_mobile"
+                  />
                 </a>
 
-                <p class="custom_mobile mbl_breadcrumb">Businesses</p>
+                <p class="custom_mobile mbl_breadcrumb">FAFPS</p>
               </div>
 
-              <div class="collapse navbar-collapse mbl_custom_menu" id="bs-example-navbar-collapse-1">
+              <div
+                class="collapse navbar-collapse mbl_custom_menu"
+                id="bs-example-navbar-collapse-1"
+              >
                 <a href="javascript:void(0);" class="custom_close">
-                  <img src="./Assets/svg/busi_arrow.svg" data-src="images/svg/close.svg" class="mobile-image custom_close" alt="close" onclick="closeSidebar()" />
+                  <img
+                    src="../Assets/svg/close.svg"
+                    data-src="../Assets/svg/close.svg"
+                    class="mobile-image custom_close"
+                    alt="close"
+                    onclick="closeSidebar()"
+                  />
                 </a>
 
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav custom_desktop">
+                  <li>
+                    <a href="../businesses.html">
+                      <p>Back</p>
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class="nav navbar-nav custom_mobile">
                   <li>
                     <a href="../about.html">
                       <p>About</p>
@@ -269,10 +263,8 @@
                     </a>
                   </li>
 
-                  
-
                   <li>
-                    <a href="contact.html">
+                    <a href="../contact.html">
                       <p>Contact</p>
                     </a>
                   </li>
@@ -283,491 +275,397 @@
 
           <div class="col-sm-12">
             <div class="custom_breadcrumb custom_desktop">
-              <ul>
+              <ul class="inner_breadcrumb multi_bread clearfix">
+                <li><a href="../businesses.html">Businesses</a></li>
+
                 <li>
-                  <a href="businesses.html">Businesses</a>
+                  <img
+                    src="../Assets/svg/breadcrumbs.svg"
+                    alt="breadcrumbs arrow"
+                  />
                 </li>
+                <li><a href="">FAFPS</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      </div>
+    </div>
 
-  <div class="page-container">
-    <div class="custom_inner_page">
+    <div class="page-container">
+      <div class="custom_inner_page">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="inner_banner">
+                <div
+                  style="padding-top: calc(70000% / 1920)"
+                  class="img-responsive custom_desktop banner-image-wrapper"
+                >
+                  <img
+                    class="desktop-image banner-image opacity_chnage"
+                    src="../Assets/businesses/FAFPS_banner.png"
+                    data-src="../Assets/businesses/FAFPS_banner.png"
+                    alt="Firefighting_banner.png"
+                    data-loadonly="true"
+                  />
+                </div>
+
+                <div
+                  style="padding-top: calc(20000% / 335)"
+                  class="img-responsive custom_mobile banner-image-wrapper"
+                >
+                  <img
+                    class="mobile-image banner-image opacity_chnage"
+                    src="../Assets/businesses/FAFPS_banner.png"
+                    data-src="../Assets/businesses/FAFPS_banner.png"
+                    alt="Firefighting_banner.png"
+                    data-loadonly="true"
+                  />
+                </div>
+
+                <p class="text_name">BKC, MUMBAI</p>
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+              <div class="business_verticle_wraper">
+                <h1>Built to Protect</h1>
+
+                <div class="about_text">
+                  <p>
+                    A fire alarm system is an essential safety feature in
+                    buildings that helps detect and warn people about the
+                    presence of fire. A fire alarm system is a vital part of any
+                    building's safety measures. It helps detect fires early,
+                    alert occupants, and facilitate a quick response to minimize
+                    damage and protect lives. Regular maintenance and testing
+                    are crucial to ensure the system works effectively when
+                    needed.
+                  </p>
+                </div>
+
+                <div class="business_verticle_our_offer">
+                  <h2 class="custom_desktop">
+                    Here's a simple explanation of how it works and its key
+                    components:
+                  </h2>
+
+                  <ul class="clearfix">
+                    <li>
+                      <h3 class="color_orange font36heavy lh24 mb25">
+                        Smoke Detectors
+                      </h3>
+                      <p>These devices sense smoke and trigger the alarm.</p>
+                    </li>
+
+                    <li>
+                      <h3 class="color_orange font36heavy lh24 mb25">
+                        Heat Detectors
+                      </h3>
+                      <p>
+                        These detect changes in temperature and activate the
+                        alarm if it gets too hot.
+                      </p>
+                    </li>
+
+                    <li>
+                      <h3 class="color_orange font36heavy lh24 mb25">
+                        Heat Detectors
+                      </h3>
+                      <p>
+                        These allow people to manually trigger the alarm if they
+                        see a fire.
+                      </p>
+                    </li>
+
+                    <li>
+                      <h3 class="color_orange font36heavy lh24 mb25">
+                        Fire Alarm Control Panel
+                      </h3>
+                      <p>
+                        This is the system’s central hub, which monitors and
+                        controls the detectors and alarms.
+                      </p>
+                    </li>
+
+                    <li>
+                      <h3 class="color_orange font36heavy lh24 mb25">
+                        Alarm Sounders and Flashers
+                      </h3>
+                      <p>
+                        These make loud noises and flash lights to alert people
+                        of danger.
+                      </p>
+                    </li>
+
+                    <li>
+                      <h3 class="color_orange font36heavy lh24 mb25">
+                        Emergency Communication Systems
+                      </h3>
+                      <p>
+                        These include speakers and intercoms for emergency
+                        instructions.
+                      </p>
+                    </li>
+
+                    <li>
+                      <h3 class="color_orange font36heavy lh24 mb25">
+                        Automatic Fire Detectors
+                      </h3>
+                      <p>
+                        These can sense fires without human intervention and are
+                        often connected to sprinklers or other
+                        suppression systems.
+                      </p>
+                    </li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="inner_botom_section business_verticle_bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="business_next_project">
+                  <div class="business_next_project_left">
+                    <img
+                      src="../Assets/businesses/PIPE_2.png"
+                      data-src="../Assets/businesses/PIPE_2.png"
+                      class="common-image"
+                      alt="Sterling & Wilson Public Health Engineering"
+                    />
+
+                    <p class="text_name">
+                      BKC, Mumbai
+                    </p>
+                  </div>
+
+                  <a href="./industrialepc.html">
+                    <div class="business_next_project_right">
+                      <div class="table_middle">
+                        <div class="pos_relative">
+                          <h2>Plumbing Health Engineering
+                          </h2>
+
+                          <p>Building Healthier Communities
+                          </p>
+
+                          <span class="arrow_right">
+                            <img
+                              src="../Assets/svg/slide_arrow_right.svg"
+                              data-src="../Assets/svg/slide_arrow_right.svg"
+                              alt="arrow"
+                              class="common-image"
+                            />
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="page_back custom_mobile">
+          <a href="../businesses.html"
+            ><img
+              width="6"
+              src="../Assets/svg/left-arrow-orange.svg"
+              data-src="images/svg/back.svg"
+              alt="BACK"
+              class="mobile-image"
+            />BACK</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <div class="inner_banner">
-              <div style="padding-top: calc(70000% / 1920)" class="img-responsive custom_desktop banner-image-wrapper">
-                <img class="desktop-image banner-image opacity_chnage" src="../Assets/businesses/FAFPS_banner.png" data-src="../Assets/businesses/FAFPS_banner.png" alt="BKC, Mumbai" data-loadonly="true" />
-              </div>
-
-              <div style="padding-top: calc(20000% / 335)" class="img-responsive custom_mobile banner-image-wrapper">
-                <img class="mobile-image banner-image" src="../Assets/businesses/FAFPS_banner.png" data-src="../Assets/businesses/FAFPS_banner.png" alt="BKC, Mumbai" data-loadonly="true" />
-              </div>
-
-              <p class="text_name">BKC, Mumbai, Maharashtra</p>
-            </div>
-          </div>
-
-          <div class="col-sm-12">
-            <div class="inner_content_wraper mbl_mb40">
+            <div class="footer_section">
               <div class="row">
-                <div class="col-sm-6">
-                  <h1>
-                    Empowering Industries through Innovative <br/> Engineering
-                  </h1>
-                </div>
-
-                <div class="col-sm-6">
-                  <div class="about_text business_text mbl_custom_border">
-                    <p>Chazown Private Limited has been at the forefront of Industrial Engineering, Procurement, and Construction (IEPC) since 2018, harnessing market opportunities and our internal strengths in MEP and EPC.</p>
-                    <div class="readMoreSection">
-                      <br />
-
-                      <p>
-                        Over the past years, we have built extensive capabilities in engineering, design, procurement, and construction. Today, we are a leading one-stop solutions provider in the EPC segment, offering tailored solutions to our clients.
-                        <br /><br />
-                        <b> Our IEPC division undertakes comprehensive projects, including Civil, Electromechanical, Instrumentation & Controls, Security, and Firefighting & Detection works. We serve a wide range of industrial sectors such as Oil & Gas, Cryogenic, Mines, Power, Defence, Chemical, Fertilizers, Steel, and Large Infrastructure projects.                          <br /><br />
-                        <b>Certified by renowned PMC and EPC contractors in India, we have also expanded our footprint internationally, providing expertise in fire alarms, firefighting, low voltage, control, and instrumentation systems.Our team comprises experts across multiple verticals, capable of delivering end-to-end solutions. From design and engineering, procurement and supply, project management and planning, to erection, testing, commissioning, and project handover, we ensure HSE and quality compliance within contractual timelines.
-                          <br /><br />
-                        Our team comprises experts across multiple verticals who have the capability of providing end-to-end solutions, starting from design and engineering, procurement and supply, project management and planning, erection, testing, commissioning, and handing over the project to
-                        the end-user ensuring HSE and quality compliance, within the contractual timelines.
-                      </p>
+                <div class="col-sm-3">
+                  <a href="/">
+                    <div class="footer_logo">
+                      <img
+                        class="common-image opacity_chnage"
+                        src="../Assets/logo/LOGO_WHITE.png"
+                        data-src="images/svg/logo_white.svg"
+                        alt="footer logo"
+                      />
                     </div>
-                    <p class="readMoreCta">Read more</p>
-                    <!-- <p>If Data is King, we build the castles.</p> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-12">
-            <h3 class="custom_business_alt_head">
-              Our Expertise Includes <br class="custom_mobile" />
-              Engineering, Procurement, Construction, and Maintenance Services
-            </h3>
-            <p class="catg"><span class="font_heavy">Catering to:</span> Oil & Gas | Chemical | Power | Cryogenic Plants | Steel | Ports & Terminals | General Industries</p>
-          </div>
-
-          <div class="col-sm-12">
-            <div class="business_verticle_wraper custom_bdr adj-mp">
-              <div class="business_verticle_our_offer">
-                <h2>Our Offerings</h2>
-
-                <ul class="clearfix bv__listItems offer_section" id="OfferingPannel">
-                  <li class="offer_card">
-                    <span class="offer_cardIcon"> <img src="../Assets/svg/civil.svg" class="cardIcon" alt="arrow" /> </span><span class="offer_cardTitle">Civil work</span>
-                  </li>
-                  <li class="offer_card">
-                    <span class="offer_cardIcon"> <img src="../Assets/svg/socket.svg" class="cardIcon" alt="arrow" /> </span><span class="offer_cardTitle">Electromechanical solutions</span>
-                  </li>
-                  <li class="offer_card">
-                    <span class="offer_cardIcon"> <img src="../Assets/svg/crane.svg" class="cardIcon" alt="arrow" /> </span><span class="offer_cardTitle">Superstructure /sheds: PEB /structural/ civil work </span>
-                  </li>
-                  <li class="offer_card">
-                    <span class="offer_cardIcon"> <img src="../Assets/svg/fireFighting.svg" class="cardIcon" alt="arrow" /> </span><span class="offer_cardTitle"> Fire-fighting and fire alarm system</span>
-                  </li>
-                  <li class="offer_card">
-                    <span class="offer_cardIcon"> <img src="../Assets/svg/mechanical.svg" class="cardIcon" alt="arrow" /> </span><span class="offer_cardTitle">Mechanical utility services including piping & compressed air system </span>
-                  </li>
-                  <li class="offer_card">
-                    <span class="offer_cardIcon"> <img src="../Assets/svg/oil-gas.svg" class="cardIcon" alt="arrow" /> </span><span class="offer_cardTitle">Oil & gas composite & pipeline works </span>
-                  </li>
-                  <li class="offer_card">
-                    <span class="offer_cardIcon"> <img src="../Assets/svg/computer.svg" class="cardIcon" alt="arrow" /> </span><span class="offer_cardTitle">Instrumentation & control works: Process & control instrumentation /PLC /SCADA</span>
-                  </li>
-                </ul>
-              </div>
-              <div class="business_verticle_our_offer">
-                <h2>Our Expertise</h2>
-
-                <ul class="clearfix bv__listItems">
-                  <li>Experienced team for handling projects worth millions of dollars</li>
-                  <li>Ensuring on-time delivery of materials & equipment</li>
-                  <li>Continuous control over materials and workman quality</li>
-                  <li>In-house design engineers trained in the latest design software</li>
-                  <li>Successfully completed 11+ projects for ports</li>
-                  <li>Professional expertise across multiple verticals</li>
-                  <li>Ensuring HSE and quality compliance for each project</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="inner_page_section no_bot_border mbl_w100 mbl_pb60">
-              <div class="business_contact clearfix">
-                <div class="business_contact_section">
-                  <div class="business_contact_table">
-                    <h2>
-                      Find out how we can
-
-                      <br />
-                      help your business
-                    </h2>
-                  </div>
-                </div>
-                <div class="business_contact_section_r">
-                  <ul class="business_mails">
-                    <li>
-                      <span>Write to us at</span>
-
-                      <a href="mailto:salesff.mumbai@chazown.com">salesff.mumbai@chazown.com</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="inner_botom_section">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8">
-              <div class="inner_botom_table">
-                <div class="inner_botom_text">
-                  <a href="projects?industrial-epc" title="IEPC PROJECTS" class="dis_after_none">
-                    <div style="padding-top: calc(40000% / 670)" data-src="images/businesses/iepc/mobile/projects/howe-eng/banner/2.jpg" class="mobile-image img-responsive custom_mobile bgsz-cv bgp-c bg-norepeat"></div>
-
-                    <p class="text_name custom_mobile">Howe Engineering Projects India Pvt. Ltd., Tamil Nadu</p>
-
-                    <h3>
-                      Quality projects designed with <br />
-                      in-house expertise and futuristic approach.
-                      <br />
-                      <br />
-                      Your projects, our priority.
-                    </h3>
-                  </a>
-
-                  <a href="projects?iepc" title="IEPC PROJECTS">
-                    <span>EXPLORE EPC PROJECTS</span>
-                  </a>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4 custom_desktop">
-              <div class="inner_botom_right_image">
-                <div class="dis_in_block">
-                  <a href="projects?iepc" title="IEPC PROJECTS">
-                    <div class="sw-image-wrapper" style="width: 250px; height: 450px">
-                      <img src="../Assets/businesses/last.png" data-src="../Assets/businesses/last.png" class="sw-image common-image" alt="sec-business_cross" />
-                    </div>
-
-                    <p class="text_name">BKC Projects India Pvt. Ltd</p>
                   </a>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="footer_section">
-            <div class="row">
-              <div class="col-sm-3">
-                <a href="index.html">
-                  <div class="footer_logo">
-                    <img class="common-image opacity_chnage" src="../Assets/logo/LOGO_WHITE.png" data-src="images/svg/logo_white.svg" alt="footer logo" />
-                  </div>
-                </a>
-              </div>
-              <div class="col-sm-7">
-                <div class="footer_menu footer__second">
-                  <ul class="clearfix">
-                    <li>
-                      <a href="about.html">About</a>
-                    </li>
-                    <li>
-                      <a href="business.html">Business</a>
-                    </li>
-                    <li>
-                      <a href="projects.html">Projects</a>
-                    </li>
-                    <li>
-                      <a href="careers.html">Careers</a>
-                    </li>
-                    <li>
-                      <a href="csr.html">CSR</a>
-                    </li>
+                <div class="col-sm-7">
+                  <div class="footer_menu footer__second">
+                    <ul class="clearfix">
                       <li>
-                      <a href="media.html">Media</a>
-                    </li>
-                    <li>
-                      <a href="contact.html" target="_blank">Contact</a>
-                    </li>
-                    <li class="custom_mobile">
-                      <a href="pdf/disclaimer.pdf" target="_blank">Disclaimer</a>
-                    </li>
-                    <li class="custom_mobile">
-                      <a href="pdf/hse_policy.pdf" target="_blank">HSE Policy</a>
-                    </li>
-                    <li class="custom_mobile">
-                      <a href="pdf/quality_policy.pdf" target="_blank">Quality Policy</a>
-                    </li>
-                    <li class="custom_mobile">
-                <a href="pages/full-content-page/disclaimer-privacy-policy/index.html" target="_blank">Privacy Policy</a>
-              </li>
-                    <li class="custom_mobile">
-                      <a href="pdf/HSE_Policy_(14-02-19).pdf" target="_blank">HSE Policy <br />(Middle East)</a>
-                    </li>
-                    <li class="custom_mobile">
-                      <a href="pdf/Quality_Policy%20_(15-02-18).pdf" target="_blank">Quality Policy <br />(Middle East)</a>
-                    </li>
-                    <li class="custom_mobile">
-                      <a href="sitemap/index.html">Sitemap</a>
-                    </li>
-                  </ul>
+                        <a href="about.html">About</a>
+                      </li>
+                      <li>
+                        <a href="businesses.html">Business</a>
+                      </li>
+                      <li>
+                        <a href="projects.html">Projects</a>
+                      </li>
+                      <li>
+                        <a href="careers.html">Careers</a>
+                      </li>
+                      <li>
+                        <a href="csr.html">CSR</a>
+                      </li>
+
+                      <li>
+                        <a href="contact.html" target="_blank">Contact</a>
+                      </li>
+                      <li class="custom_mobile">
+                        <a href="/" target="_blank">Disclaimer</a>
+                      </li>
+                      <li class="custom_mobile">
+                        <a href="/" target="_blank">HSE Policy</a>
+                      </li>
+                      <li class="custom_mobile">
+                        <a href="/" target="_blank">Quality Policy</a>
+                      </li>
+                      <li class="custom_mobile">
+                        <a href="/" target="_blank">Privacy Policy</a>
+                      </li>
+                      <li class="custom_mobile">
+                        <a href="/" target="_blank"
+                          >HSE Policy <br />(Middle East)</a
+                        >
+                      </li>
+                      <li class="custom_mobile">
+                        <a href="/" target="_blank"
+                          >Quality Policy <br />(Middle East)</a
+                        >
+                      </li>
+                      <li class="custom_mobile">
+                        <a href="/">Sitemap</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-              <div class="col-sm-2">
-                <div class="social_link">
-                  <ul class="clearfix">
-                    <li>
-                      <a href="https://www.linkedin.com/company/sterlingandwilson/" target="_blank">
-                        <img class="common-image" src="../Assets/svg/linkedin.svg" data-src="images/svg/linkedin.svg" alt="LinkedIn" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.facebook.com/SterlingandWilsonofficial" target="_blank">
-                        <img class="common-image" src="../Assets/svg/facebook.svg" data-src="images/svg/facebook.svg" alt="Facebook" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.youtube.com/@sterlingandwilsongroup/" target="_blank">
-                        <img class="common-image" src="../Assets/svg/youtubeIcon.svg" data-src="images/svg/youtubeIcon.svg" style="width: 28px" alt="youtube" />
-                      </a>
-                    </li>
-                  </ul>
+                <div class="col-sm-2">
+                  <div class="social_link">
+                    <ul class="clearfix">
+                      <li>
+                        <a href="/" target="_blank">
+                          <img
+                            class="common-image"
+                            src="../Assets/svg/linkedin.svg"
+                            data-src="images/svg/linkedin.svg"
+                            alt="LinkedIn"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/" target="_blank">
+                          <img
+                            class="common-image"
+                            src="../Assets/svg/facebook.svg"
+                            data-src="images/svg/facebook.svg"
+                            alt="Facebook"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/" target="_blank">
+                          <img
+                            class="common-image"
+                            src="../Assets/svg/youtubeIcon.svg"
+                            data-src="images/svg/youtubeIcon.svg"
+                            style="width: 28px"
+                            alt="youtube"
+                          />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-12">
-          <div class="footer_copyright">
-            <ul class="custom_desktop">
-              <li>
-                <a href="pdf/disclaimer.pdf" target="_blank">Disclaimer</a>
-              </li>
-              <li>
-                <a href="HSE-Policies-%26-Documents/index.html" target="_blank">HSE Policies & Documents</a>
-              </li>
-              <li>
-                <a href="pdf/quality_policy.pdf" target="_blank">Quality Policy</a>
-              </li>
-               <li>
-                <a href="pages/full-content-page/disclaimer-privacy-policy/index.html" target="_blank">Privacy Policy</a>
-              </li>
+          <div class="col-sm-12">
+            <div class="footer_copyright">
+              <ul class="custom_desktop">
+                <li>
+                  <a href="/" target="_blank">Disclaimer</a>
+                </li>
+                <li>
+                  <a href="/" target="_blank">HSE Policies & Documents</a>
+                </li>
+                <li>
+                  <a href="/" target="_blank">Quality Policy</a>
+                </li>
+                <li>
+                  <a href="/" target="_blank">Privacy Policy</a>
+                </li>
 
-              <li>
-                <a href="pdf/Quality_Policy%20_(15-02-18).pdf" target="_blank">Quality Policy (Middle East)</a>
-              </li>
-              <li>
-                <a href="sitemap/index.html">Sitemap</a>
-              </li>
-            </ul>
-            <p>Copyright © <span class="footer-year">2019</span> Chazown Pvt. Ltd.</p>
+                <li>
+                  <a href="/" target="_blank">Quality Policy (Middle East)</a>
+                </li>
+                <li>
+                  <a href="/">Sitemap</a>
+                </li>
+              </ul>
+              <p>
+                Copyright © <span class="footer-year">2024</span> CHAZOWN - An
+                EPC Company
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="sidebar_block" onclick="closeSidebar()"></div>
+    <div class="sidebar_block" onclick="toggleSidebar()"></div>
 
-  
-  <script src="../Js/jquery-3.5.1.min.js"></script>
+    <!-- http://demo.nimius.net/debounce_throttle/ -->
 
-  <script src="../Js/lodash.min.js"></script>
+    <script src=".../Js/lodash.min.js"></script>
 
-  <script src="../Js/TweenMax.min.js"></script>
+    <script src=".../Js/TweenMax.min.js"></script>
 
-  
+    <!-- <script src="js/objectFitPolyfill.basic.min.js"></script> -->
 
-  <script src="../Js/global.js"></script>
+    <script src=".../Js/global.js"></script>
 
-  <script src="../Js/AnimationLibrary/SWBannerScaleAnimations.js"></script>
+    <script src=".../Js/AnimationLibrary/SWImageLoader.js"></script>
 
-  <script>
-    /* =============================================== */
+    <script>
+      /* =============================================== */
 
-    /* ANIMATE BANNER IMAGES
+      /* ADD IMAGES TO THE DOM
 
-  /* =============================================== */
+		/* =============================================== */
 
-    (function () {
-      var swBannerScaleAnimations = new SWBannerScaleAnimations();
-    })();
-  </script>
+      (function () {
+        var swImageLoader = new SWImageLoader();
+      })();
+    </script>
 
-  <script src="../Js/swiper.min.js"></script>
+    <script src=".../Js/AnimationLibrary/SWBannerScaleAnimations.js"></script>
 
-  <script src="../Js/businesses-swiper.js"></script>
+    <script>
+      /* =============================================== */
 
-  <script src="../Js/AnimationLibrary/SWImageLoader.js"></script>
+      /* ANIMATE BANNER IMAGES
 
-  <script>
-    /* =============================================== */
+		/* =============================================== */
 
-    /* ADD IMAGES TO THE DOM
-
-  /* =============================================== */
-
-    (function () {
-      var swImageLoader = new SWImageLoader();
-    })();
-  </script>
-
-  <script src="../Js/AnimationLibrary/SWImageAnimations.js"></script>
-
-  <script src="../Js/AnimationLibrary/SWImagePanning.js"></script>
-
-  <script>
-    /* =============================================== */
-
-    /* ADD IMAGE ANIMATIONS ON SCROLL
-
-  /* =============================================== */
-
-    (function () {
-      var swImageAnimations = new SWImageAnimations();
-    })();
-
-    /* =============================================== */
-
-    /* ADD PAN ANIMATION ON SCROLL
-
-  /* =============================================== */
-
-    (function () {
-      if (getDeviceInfo() != "mobile") {
-        var swPanImage = document.querySelector(".sw-pan-image");
-
-        if (swPanImage) var swImagePanAnimations = new SWImagePanning(swPanImage);
-      }
-    })();
-
-    $("p.readMoreCta").click(function () {
-      $(".readMoreSection").css("max-height", "2000px");
-
-      $(this).hide();
-    });
-
-    $("p.readMoreCta1").click(function () {
-      $(".readMoreSection1").css("max-height", "2000px");
-
-      $(this).hide();
-    });
-  </script>
-
-  <style>
-    .bv__listItems {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .catg {
-      font-size: 18px;
-      margin-top: 10px;
-      line-height: 1.6;
-    }
-
-    .project_slider h3 {
-      padding-top: 50px;
-    }
-
-    @media (max-width: 320px) {
-      div.project_slider {
-        height: 300px;
-      }
-    }
-
-    @media (max-width: 767px) {
-      .project_slider h3 {
-        padding-top: 0px !important;
-      }
-
-      .heading_section {
-        margin-bottom: 20px;
-      }
-
-      .project_slider {
-        height: 250px;
-      }
-
-      .mbl-margin {
-        margin-bottom: 50px;
-      }
-
-      .catg {
-        font-size: 14px;
-        margin-top: 10px;
-        line-height: 26px;
-      }
-
-      .title-highlight {
-        margin-top: 20px !important;
-        font-size: 20px !important;
-        line-height: inherit;
-      }
-
-      .business_verticle_wraper.adj-mp {
-        padding-bottom: 0px !important;
-        margin-bottom: 60px !important;
-      }
-
-      .project_slider .mbl-c-white li {
-        color: #ffffff;
-      }
-    }
-
-    .title-highlight {
-      margin-top: 60px;
-      font-size: 30px;
-    }
-
-    .business_verticle_wraper.adj-mp {
-      padding-bottom: 70px;
-      margin-bottom: 70px;
-    }
-
-    .business_project>a>div>img {
-      object-fit: cover;
-    }
-
-    .business_achive .project_slider {
-      height: 100%;
-    }
-
-    .business_achive .project_slider ul li {
-      padding: 4px 0px;
-    }
-
-    .business_achive .project_slider h3 {
-      padding-top: 20px;
-    }
-
-    .business_achive .slide_control {
-      margin-top: 0px;
-    }
-  </style>
-</body>
-
+      (function () {
+        var swBannerScaleAnimations = new SWBannerScaleAnimations();
+      })();
+    </script>
+  </body>
 </html>
