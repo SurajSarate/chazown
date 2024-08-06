@@ -162,7 +162,7 @@ body#home-page .custom_header.visible_top {
 }
 .footer {
   /* background-color: #333333; */
-  background-color: #2E236C;
+  background-color: #03346E;
 }
 .footer .footer_section {
   padding: 100px 0px;
@@ -1051,4 +1051,7 @@ a.link_style:hover::after,
       justify-content: center;
       align-items: center
     }
+  }
+  .force_bg{
+    background-color: #240750 !important;
   }
