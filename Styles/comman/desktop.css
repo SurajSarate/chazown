@@ -162,7 +162,8 @@ body#home-page .custom_header.visible_top {
 }
 .footer {
   /* background-color: #333333; */
-  background-color: #17153B;
+  /* background-color: #17153B; */
+  background-color: #000000;
 }
 .footer .footer_section {
   padding: 100px 0px;
