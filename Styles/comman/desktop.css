@@ -1055,3 +1055,6 @@ a.link_style:hover::after,
     }
   }
  
+  .home_navbar li a p::after{
+    background-color: #ffffff !important;
+  }
