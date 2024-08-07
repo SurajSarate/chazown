@@ -122,7 +122,7 @@ body#home-page .custom_header.visible_top {
   color: #2b2523;
 }
 .custom_header.inner_header ul.navbar-nav li.active a {
-  color:#17153B;
+  color:#67686666;
 }
 .custom_header.inner_header .custom_breadcrumb ul {
   padding-left: 0px;
@@ -1056,5 +1056,14 @@ a.link_style:hover::after,
   }
  
   .home_navbar li a p::after{
-    background-color: #ffffff !important;
+    background-color: #ffffff !important; 
+  }
+
+  .active a p::after{
+    color: #ffffff !important;
+    opacity: 1 !important;
+  }
+
+  .home_navbar .active a p{
+    color: #ffffff !important;
   }
