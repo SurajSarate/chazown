@@ -64,7 +64,7 @@ body {
   will-change: transform;
 }
 .custom_header .dark-bg {
-  background: rgba(0, 0, 0, 0.9);
+  background: #17153B;
   position: absolute;
   left: 0;
   top: 0;
