@@ -308,7 +308,7 @@
   vertical-align: middle;
 }
 .news_left span {
-  color: #f15922;
+  color:#17153B;
   font-size: 16px;
 }
 .news_left h2 {
@@ -621,13 +621,14 @@
     padding: 35px 25px 50px;
   }
   .slide_stats .stats_number:before {
-    background-color: rgba(103, 104, 102, 0.1);
+    /* background-color: rgba(103, 104, 102, 0.1); */
+    background-color: #67686666;
     height: 2px;
   }
   .swiper-slide-active .slide_stats .stats_number:after,
   .slide-statistics.animate .slide_stats .stats_number:after {
     height: 2px;
-    background-color: rgba(241, 89, 34, 0.6);
+    background-color:#17153B;
   }
   .slide_stats .stats_number {
     width: calc(50% - 15px);

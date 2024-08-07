@@ -54,7 +54,7 @@ ul.inner_breadcrumb.multi_bread li img{position: relative; top: 2px;}
 h3.custom_business_alt_head{color: #2B2523; font-size: 30px; line-height: 47px; font-family:Avenir-Heavy; margin: 0px;}
 .project_slider ul{padding-left: 30px; margin: 10px 0px 0px;}
 .project_slider ul li{font-size: 15px; padding: 0px 0px; color: #2B2B33; display: block; position: relative;}
-.project_slider ul li:before{content: ""; left: -30px; top: 10px; height: 1px; width: 20px; background-color: #f15922; position: absolute;}
+.project_slider ul li:before{content: ""; left: -30px; top: 10px; height: 1px; width: 20px; background-color:#17153B; position: absolute;}
 .inner_botom_right_image a{text-decoration: none;}
 .inner_page_section.top_border{border-top: 1px solid rgba(183, 183, 183, 0.35);} 
 .business_verticle_our_offer_paragraph{color: #2B2523; font-size: 18px;line-height: 30px; padding-top: 75px; margin-bottom: 0px; font-family: Avenir-Roman;}

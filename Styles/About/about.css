@@ -19,7 +19,7 @@
     margin-left: 4px;
 }
 .timeline_box .timeline_box_text h2 {
-    color: #f15922;
+    color:#17153B;
     display: block;
     line-height: 72px;
     font-size: 60px;
@@ -43,7 +43,7 @@
     width: 30px;
 }
 .timeline_block span.active:before {
-    background-color: #f15922;
+    background-color:#17153B;
     animation-name: animateTimelineTick;
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
@@ -422,7 +422,7 @@
         opacity: 1;
     }
     .inner_timeline_slide .swiper-wrapper .swiper-slide h2 {
-        color: #f15922;
+        color:#17153B;
         font-size: 24px;
         line-height: 30px;
         font-family: Avenir-Black;
@@ -465,7 +465,7 @@
         top: -22px;
         left: 0px;
         display: none;
-        color: #f15922;
+        color:#17153B;
         font-size: 12px;
         line-height: 16px;
         font-family: Avenir-Light;

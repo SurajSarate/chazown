@@ -70,11 +70,11 @@
 
   // Name
 
-  var name = [  "Rutuja Pawar","Susanta Behera","Reyaz Alam","Rohit Kavar"  ];
+  var name = [  "Rutuja Pawar","Susanta Behera","Reyaz Alam","Rohit Kavar","Faisal Sayyed"  ];
 
   // Designation
 
-  var des = [ "","","","" ];
+  var des = [ "","","","","" ];
 
   swiper.on('slideChange', function() {
 
