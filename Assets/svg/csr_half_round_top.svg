@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="192.588" height="88.343" viewBox="0 0 192.588 88.343">
   <g id="Group_8450" data-name="Group 8450" transform="translate(11252.727 9294.888)">
-    <path id="Path_26874" data-name="Path 26874" d="M169.1,82.739A93.973,93.973,0,0,1,262.115.5h0A94.1,94.1,0,0,1,354.9,77.748" transform="translate(-11418.718 -9294.888)" fill="none" stroke="#f15922" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="1 2 1 2 1 2"/>
-    <circle id="Ellipse_511" data-name="Ellipse 511" cx="2.609" cy="2.609" r="2.609" transform="translate(-11252.227 -9212.263)" fill="none" stroke="#f15922" stroke-miterlimit="10" stroke-width="1"/>
-    <path id="Path_26881" data-name="Path 26881" d="M336.318,71.109a2.609,2.609,0,1,1-5.218,0,2.7,2.7,0,0,1,1.815-2.5,1.439,1.439,0,0,1,.681-.113A2.6,2.6,0,0,1,336.318,71.109Z" transform="translate(-11396.957 -9285.754)" fill="none" stroke="#f15922" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_26874" data-name="Path 26874" d="M169.1,82.739A93.973,93.973,0,0,1,262.115.5h0A94.1,94.1,0,0,1,354.9,77.748" transform="translate(-11418.718 -9294.888)" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="1 2 1 2 1 2"/>
+    <circle id="Ellipse_511" data-name="Ellipse 511" cx="2.609" cy="2.609" r="2.609" transform="translate(-11252.227 -9212.263)" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Path_26881" data-name="Path 26881" d="M336.318,71.109a2.609,2.609,0,1,1-5.218,0,2.7,2.7,0,0,1,1.815-2.5,1.439,1.439,0,0,1,.681-.113A2.6,2.6,0,0,1,336.318,71.109Z" transform="translate(-11396.957 -9285.754)" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-width="1"/>
   </g>
 </svg>
