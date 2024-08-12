@@ -268,3 +268,10 @@ for (var i = 0, len = footerYearEls.length; i < len; i++) {
 }
 
 
+// window.oncontextmenu = function () {
+//   return false;
+// }
+// document.onkeydown = function (e) { 
+//    if (window.event.keyCode == 123 ||  e.button==2)    
+//    return false;
+// }
